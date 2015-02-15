@@ -23,9 +23,10 @@ public:
 	//Constructor
 	//no string status required at point of construction
 	//assume all tasks are not done yet at the point of construction
+	//generate taskSerialID automatically
 
 	toStringTaskDetail();
-	//get information about the task in a singel formatted string
+	//get all information about the task in a singel formatted string
 
 	getTaskSerialID();
 

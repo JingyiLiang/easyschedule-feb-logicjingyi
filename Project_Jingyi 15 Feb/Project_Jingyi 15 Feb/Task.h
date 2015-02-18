@@ -38,6 +38,6 @@ public:
 
 	~Task();
 	//Desctuctor
-}
+};
 
 #endif

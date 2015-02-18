@@ -19,12 +19,14 @@ void printTaskDetail(vector <Task> taskVector){
 
 void printTaskSerialID(vector <Task> taskVector){
 	vector <Task>:: iterator iter;
+	serialID ID;
 
 	for( iter = taskVector.begin(); iter != taskVector.end(); iter++){
-		cout << (*iter).Task::getTaskSerialID.year; 
-		cout << (*iter).Task::getTaskSerialID.month;
-		cout << (*iter).Task::getTaskSerialID.day;
-		cout << (*iter).Task::getTaskSerialID.startTime << endl;
+		ID = (*iter).Task::getTaskSerialID();
+		cout <<ID.year; 
+		cout << ID.month;
+		cout << ID.day;
+		cout << ID.startTime << endl;
 	}
 
 	return;

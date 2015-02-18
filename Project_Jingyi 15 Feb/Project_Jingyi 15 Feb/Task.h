@@ -1,5 +1,5 @@
-#ifndef TASK_H
-#define TASK_H
+#ifndef TASK_H_
+#define TASK_H_
 
 #include <iostream>
 #include <string>
@@ -8,9 +8,9 @@
 using namespace std;
 
 struct serialID{
-	int year, month,day;
+	int year, month, day;
 	double startTime;
-}
+};
 
 class Task{
 private:

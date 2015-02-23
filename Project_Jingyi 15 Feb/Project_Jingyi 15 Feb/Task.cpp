@@ -32,6 +32,7 @@ serialID Task::getTaskSerialID(){
 	return _taskSerialID;
 }
 
+Task::~Task(){}
 
 
 

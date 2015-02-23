@@ -52,5 +52,8 @@ int main(){
 	cout << "Task Serial ID: "<< endl;
 	printTaskSerialID(taskVector);
 
+	cout << "Press any key to exit" << endl;
+	cin.ignore();
+
 	return 0;
 }
